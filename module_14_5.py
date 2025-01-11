@@ -10,7 +10,7 @@ if products_is_empty():
     check_and_populate_products()
 products = get_all_products()
 
-api = '7871547121:AAGRL7UiWIcLuazGuA8gZ32KdbQ7_E9NVhE'
+api = '0000000000:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
